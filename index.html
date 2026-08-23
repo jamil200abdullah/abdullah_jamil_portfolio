@@ -3,212 +3,852 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Muhammad Abdullah Jamil — Statistics Student | Data Enthusiast. Portfolio focused on data analysis, statistical computing, data engineering and machine learning.">
+
+  <meta
+    name="description"
+    content="Muhammad Abdullah Jamil — Statistics Student | Data Enthusiast. Portfolio focused on data analysis, statistical computing, data engineering and machine learning."
+  >
+
   <meta name="theme-color" content="#0b1220">
+
   <title>Muhammad Abdullah Jamil | Statistics Student & Data Enthusiast</title>
+
+  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- Scroll progress -->
   <div class="progress"></div>
+
+  <!-- Cursor glow -->
   <div class="cursor-glow"></div>
 
+  <!-- ================= HEADER ================= -->
+
   <header class="site-header" id="top">
+
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#home" aria-label="Muhammad Abdullah Jamil home">
+
+      <a
+        class="brand"
+        href="#home"
+        aria-label="Muhammad Abdullah Jamil home"
+      >
         <span class="brand-mark">AJ</span>
         <span>MUHAMMAD ABDULLAH JAMIL</span>
       </a>
-      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
+
+      <!-- Mobile menu -->
+      <button
+        class="menu-btn"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        type="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
+
       <div class="nav-links">
+
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#focus">Focus</a>
         <a href="#contact">Contact</a>
+
       </div>
-      <button class="theme-btn" type="button" aria-label="Toggle theme">◐</button>
+
+      <!-- Theme toggle -->
+      <button
+        class="theme-btn"
+        type="button"
+        aria-label="Toggle theme"
+      >
+        ◐
+      </button>
+
     </nav>
+
   </header>
 
+
   <main>
+
+    <!-- ================= HERO ================= -->
+
     <section class="hero container" id="home">
+
       <div class="hero-copy reveal">
-        <p class="eyebrow">STATISTICS STUDENT <span>•</span> DATA ENTHUSIAST</p>
-        <h1>Building practical skills with <span>statistics, code & data.</span></h1>
-        <p class="hero-text">
-          I am a Statistics student at Hajee Mohammad Danesh Science and Technology University (HSTU),
-          interested in programming, data analysis, data engineering, and machine learning.
+
+        <p class="eyebrow">
+          STATISTICS STUDENT
+          <span>•</span>
+          DATA ENTHUSIAST
         </p>
+
+        <h1>
+          Building practical skills with
+          <span>statistics, code & data.</span>
+        </h1>
+
+        <p class="hero-text">
+          I am a Statistics student at Hajee Mohammad Danesh Science and
+          Technology University (HSTU), interested in programming,
+          data analysis, data engineering, and machine learning.
+        </p>
+
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
-          <a class="btn btn-ghost" href="docs/Muhammad_Abdullah_Jamil_CV.pdf" target="_blank" rel="noopener">View CV <span>↗</span></a>
+
+          <a
+            class="btn btn-primary"
+            href="#projects"
+          >
+            Explore Projects
+            <span>↗</span>
+          </a>
+
+          <!-- FIXED: CV is in repository root -->
+          <a
+            class="btn btn-ghost"
+            href="Muhammad_Abdullah_Jamil_CV.pdf"
+            target="_blank"
+            rel="noopener"
+          >
+            View CV
+            <span>↗</span>
+          </a>
+
         </div>
+
         <div class="quick-links">
-          <a href="https://github.com/jamil200abdullah" target="_blank" rel="noopener">GitHub</a>
-          <a href="https://www.reddit.com/u/ConsistentOrange2354/s/tk19ydNGEq" target="_blank" rel="noopener">Reddit</a>
+
+          <a
+            href="https://github.com/jamil200abdullah"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.reddit.com/u/ConsistentOrange2354/s/tk19ydNGEq"
+            target="_blank"
+            rel="noopener"
+          >
+            Reddit
+          </a>
+
           <span>Rajbari, Bangladesh</span>
+
         </div>
+
       </div>
+
+
+      <!-- ================= PROFILE CARD ================= -->
 
       <div class="hero-card reveal">
+
         <div class="photo-ring">
-          <img src="assets/profile.png" alt="Professional profile photo of Muhammad Abdullah Jamil">
+
+          <!-- FIXED: profile.png is in repository root -->
+          <img
+            src="profile.png"
+            alt="Professional profile photo of Muhammad Abdullah Jamil"
+            loading="eager"
+          >
+
         </div>
+
         <div class="hero-card-bottom">
+
           <div>
-            <span class="label">CURRENTLY</span>
-            <strong>B.Sc. in Statistics</strong>
-            <small>HSTU • 2024 – Present</small>
+
+            <span class="label">
+              CURRENTLY
+            </span>
+
+            <strong>
+              B.Sc. in Statistics
+            </strong>
+
+            <small>
+              HSTU • 2024 – Present
+            </small>
+
           </div>
-          <div class="status"><i></i> Learning & building</div>
+
+          <div class="status">
+            <i></i>
+            Learning & building
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="ticker" aria-label="Areas of focus">
+
+    <!-- ================= TICKER ================= -->
+
+    <section
+      class="ticker"
+      aria-label="Areas of focus"
+    >
+
       <div class="ticker-track">
-        <span>PYTHON</span><b>✦</b><span>STATISTICS</span><b>✦</b><span>DATA ANALYSIS</span><b>✦</b>
-        <span>DATA ENGINEERING</span><b>✦</b><span>MACHINE LEARNING</span><b>✦</b><span>STATISTICAL COMPUTING</span><b>✦</b>
-        <span>PYTHON</span><b>✦</b><span>STATISTICS</span><b>✦</b><span>DATA ANALYSIS</span><b>✦</b>
+
+        <span>PYTHON</span>
+        <b>✦</b>
+
+        <span>STATISTICS</span>
+        <b>✦</b>
+
+        <span>DATA ANALYSIS</span>
+        <b>✦</b>
+
+        <span>DATA ENGINEERING</span>
+        <b>✦</b>
+
+        <span>MACHINE LEARNING</span>
+        <b>✦</b>
+
+        <span>STATISTICAL COMPUTING</span>
+        <b>✦</b>
+
+        <span>PYTHON</span>
+        <b>✦</b>
+
+        <span>STATISTICS</span>
+        <b>✦</b>
+
+        <span>DATA ANALYSIS</span>
+        <b>✦</b>
+
       </div>
+
     </section>
 
-    <section class="section container" id="about">
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+      class="section container"
+      id="about"
+    >
+
       <div class="section-head reveal">
-        <span class="section-number">01</span>
-        <div><p class="eyebrow">PROFILE</p><h2>About me</h2></div>
-      </div>
-      <div class="about-grid">
-        <p class="lead reveal">
-          Statistics student passionate about Python, R, statistics, programming, and data-driven problem solving.
-          My long-term goal is to build strong expertise in data engineering and machine learning while developing
-          practical skills in statistical computing and data science.
-        </p>
-        <div class="about-note reveal">
-          <span>AREAS OF INTEREST</span>
-          <p>Data Engineering · Machine Learning · Data Science · Statistical Computing · Python Programming · Data Analysis</p>
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-soft" id="education">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-number">02</span>
-          <div><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Education</h2></div>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item reveal">
-            <span class="timeline-dot"></span>
-            <div class="timeline-meta">2024 – PRESENT</div>
-            <h3>B.Sc. in Statistics</h3>
-            <p>Hajee Mohammad Danesh Science and Technology University (HSTU)</p>
-            <small>Department of Statistics and Data Science</small>
-          </article>
-          <article class="timeline-item reveal">
-            <span class="timeline-dot"></span>
-            <div class="timeline-meta">2024</div>
-            <h3>Higher Secondary Certificate (HSC)</h3>
-            <p>Rajbari Government College</p>
-          </article>
-          <article class="timeline-item reveal">
-            <span class="timeline-dot"></span>
-            <div class="timeline-meta">2022</div>
-            <h3>Secondary School Certificate (SSC)</h3>
-            <p>Rajbari Government High School</p>
-          </article>
-        </div>
-      </div>
-    </section>
+        <span class="section-number">
+          01
+        </span>
 
-    <section class="section container" id="skills">
-      <div class="section-head reveal">
-        <span class="section-number">03</span>
-        <div><p class="eyebrow">TECHNICAL TOOLKIT</p><h2>Skills</h2></div>
-      </div>
-      <div class="skill-grid">
-        <article class="skill-card reveal"><span class="skill-index">01</span><h3>Programming</h3><div class="chips"><span>Python</span><span>R</span><span>C</span><span>SQL</span><span>JavaScript (Basic)</span></div></article>
-        <article class="skill-card reveal"><span class="skill-index">02</span><h3>Data Science / Analysis</h3><div class="chips"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Scikit-learn</span></div></article>
-        <article class="skill-card reveal"><span class="skill-index">03</span><h3>Statistics</h3><div class="chips"><span>Probability</span><span>Statistical Inference</span><span>Sampling Techniques</span><span>Hypothesis Testing</span><span>Regression Analysis</span><span>Data Analysis</span><span>Numerical Methods</span></div></article>
-        <article class="skill-card reveal"><span class="skill-index">04</span><h3>Tools</h3><div class="chips"><span>Git</span><span>GitHub</span><span>Visual Studio Code</span><span>Jupyter Notebook</span><span>Microsoft Excel</span></div></article>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="projects">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-number">04</span>
-          <div><p class="eyebrow">SELECTED WORK</p><h2>Projects</h2></div>
-        </div>
-        <div class="project-grid">
-          <article class="project-card reveal">
-            <div class="project-top"><span>01</span><span>STATISTICS</span></div>
-            <h3>Statistical Data Analysis</h3>
-            <p>Worked with datasets using Python and statistical methods to perform data analysis, visualization, and interpretation.</p>
-            <div class="tech-row"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span></div>
-          </article>
-          <article class="project-card reveal">
-            <div class="project-top"><span>02</span><span>SIMULATION</span></div>
-            <h3>Monte Carlo Simulation</h3>
-            <p>Implemented Monte Carlo simulation techniques for statistical and numerical experimentation.</p>
-            <div class="tech-row"><span>R</span></div>
-          </article>
-          <article class="project-card reveal">
-            <div class="project-top"><span>03</span><span>WEB</span></div>
-            <h3>Scientific Calculator</h3>
-            <p>Built a web-based scientific calculator with mathematical operations and a clean interactive interface.</p>
-            <div class="tech-row"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-          </article>
-        </div>
-        <p class="project-note reveal">Project repository links can be added later when the verified GitHub URLs are available.</p>
-      </div>
-    </section>
-
-    <section class="section container" id="focus">
-      <div class="focus-panel reveal">
         <div>
-          <p class="eyebrow">CAREER INTERESTS</p>
-          <h2>Learning toward the data stack.</h2>
-          <p>Focused on developing practical skills across statistics, programming, data analysis, data engineering, and machine learning.</p>
+
+          <p class="eyebrow">
+            PROFILE
+          </p>
+
+          <h2>
+            About me
+          </h2>
+
         </div>
-        <div class="focus-list">
-          <span>Data Engineering</span><span>Machine Learning</span><span>Data Science</span>
-          <span>Statistical Computing</span><span>Python Programming</span><span>Data Analysis</span>
-        </div>
+
       </div>
+
+
+      <div class="about-grid">
+
+        <p class="lead reveal">
+
+          I am a Statistics student passionate about Python, R,
+          statistics, programming, and data-driven problem solving.
+
+          My long-term goal is to build strong expertise in data
+          engineering and machine learning while developing practical
+          skills in statistical computing and data science.
+
+        </p>
+
+
+        <div class="about-note reveal">
+
+          <span>
+            AREAS OF INTEREST
+          </span>
+
+          <p>
+            Data Engineering · Machine Learning · Data Science ·
+            Statistical Computing · Python Programming · Data Analysis
+          </p>
+
+        </div>
+
+      </div>
+
     </section>
 
-    <section class="section contact-section" id="contact">
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section
+      class="section section-soft"
+      id="education"
+    >
+
       <div class="container">
-        <div class="contact-card reveal">
+
+        <div class="section-head reveal">
+
+          <span class="section-number">
+            02
+          </span>
+
           <div>
-            <p class="eyebrow">GET IN TOUCH</p>
-            <h2>Let's connect around data & technology.</h2>
-            <p>For internship, entry-level tech/data, data science, data engineering, machine learning, or statistics-related opportunities.</p>
+
+            <p class="eyebrow">
+              ACADEMIC BACKGROUND
+            </p>
+
+            <h2>
+              Education
+            </h2>
+
           </div>
-          <div class="contact-links">
-            <a href="mailto:jamil200abdullah@gmail.com">jamil200abdullah@gmail.com <span>↗</span></a>
-            <a href="tel:01994239994">01994239994 <span>↗</span></a>
-            <a href="https://github.com/jamil200abdullah" target="_blank" rel="noopener">GitHub <span>↗</span></a>
-            <a href="https://www.reddit.com/u/ConsistentOrange2354/s/tk19ydNGEq" target="_blank" rel="noopener">Reddit <span>↗</span></a>
-            <div class="linkedin-line">LinkedIn: MUHAMMAD ABDULLAH JAMIL <small>URL to be added</small></div>
-          </div>
+
         </div>
+
+
+        <div class="timeline">
+
+          <!-- BSc -->
+
+          <article class="timeline-item reveal">
+
+            <span class="timeline-dot"></span>
+
+            <div class="timeline-meta">
+              2024 – PRESENT
+            </div>
+
+            <h3>
+              B.Sc. in Statistics
+            </h3>
+
+            <p>
+              Hajee Mohammad Danesh Science and Technology
+              University (HSTU)
+            </p>
+
+            <small>
+              Department of Statistics and Data Science
+            </small>
+
+          </article>
+
+
+          <!-- HSC -->
+
+          <article class="timeline-item reveal">
+
+            <span class="timeline-dot"></span>
+
+            <div class="timeline-meta">
+              2024
+            </div>
+
+            <h3>
+              Higher Secondary Certificate (HSC)
+            </h3>
+
+            <p>
+              Rajbari Government College
+            </p>
+
+          </article>
+
+
+          <!-- SSC -->
+
+          <article class="timeline-item reveal">
+
+            <span class="timeline-dot"></span>
+
+            <div class="timeline-meta">
+              2022
+            </div>
+
+            <h3>
+              Secondary School Certificate (SSC)
+            </h3>
+
+            <p>
+              Rajbari Government High School
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section
+      class="section container"
+      id="skills"
+    >
+
+      <div class="section-head reveal">
+
+        <span class="section-number">
+          03
+        </span>
+
+        <div>
+
+          <p class="eyebrow">
+            TECHNICAL TOOLKIT
+          </p>
+
+          <h2>
+            Skills
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <div class="skill-grid">
+
+        <!-- Programming -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-index">
+            01
+          </span>
+
+          <h3>
+            Programming
+          </h3>
+
+          <div class="chips">
+
+            <span>Python</span>
+            <span>R</span>
+            <span>C</span>
+            <span>SQL</span>
+            <span>JavaScript (Basic)</span>
+
+          </div>
+
+        </article>
+
+
+        <!-- Data -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-index">
+            02
+          </span>
+
+          <h3>
+            Data Science / Analysis
+          </h3>
+
+          <div class="chips">
+
+            <span>NumPy</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+            <span>Scikit-learn</span>
+
+          </div>
+
+        </article>
+
+
+        <!-- Statistics -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-index">
+            03
+          </span>
+
+          <h3>
+            Statistics
+          </h3>
+
+          <div class="chips">
+
+            <span>Probability</span>
+            <span>Statistical Inference</span>
+            <span>Sampling Techniques</span>
+            <span>Hypothesis Testing</span>
+            <span>Regression Analysis</span>
+            <span>Data Analysis</span>
+            <span>Numerical Methods</span>
+
+          </div>
+
+        </article>
+
+
+        <!-- Tools -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-index">
+            04
+          </span>
+
+          <h3>
+            Tools
+          </h3>
+
+          <div class="chips">
+
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Visual Studio Code</span>
+            <span>Jupyter Notebook</span>
+            <span>Microsoft Excel</span>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section
+      class="section section-soft"
+      id="projects"
+    >
+
+      <div class="container">
+
+        <div class="section-head reveal">
+
+          <span class="section-number">
+            04
+          </span>
+
+          <div>
+
+            <p class="eyebrow">
+              SELECTED WORK
+            </p>
+
+            <h2>
+              Projects
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+          <!-- Project 01 -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>01</span>
+              <span>STATISTICS</span>
+
+            </div>
+
+            <h3>
+              Statistical Data Analysis
+            </h3>
+
+            <p>
+              Worked with datasets using Python and statistical
+              methods to perform data analysis, visualization,
+              and interpretation.
+            </p>
+
+            <div class="tech-row">
+
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>NumPy</span>
+              <span>Matplotlib</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- Project 02 -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>02</span>
+              <span>SIMULATION</span>
+
+            </div>
+
+            <h3>
+              Monte Carlo Simulation
+            </h3>
+
+            <p>
+              Implemented Monte Carlo simulation techniques
+              for statistical and numerical experimentation.
+            </p>
+
+            <div class="tech-row">
+
+              <span>R</span>
+
+            </div>
+
+          </article>
+
+
+          <!-- Project 03 -->
+
+          <article class="project-card reveal">
+
+            <div class="project-top">
+
+              <span>03</span>
+              <span>WEB</span>
+
+            </div>
+
+            <h3>
+              Scientific Calculator
+            </h3>
+
+            <p>
+              Built a web-based scientific calculator with
+              mathematical operations and a clean interactive
+              interface.
+            </p>
+
+            <div class="tech-row">
+
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+        <p class="project-note reveal">
+
+          Project repository links can be added later when
+          verified GitHub URLs are available.
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CAREER FOCUS ================= -->
+
+    <section
+      class="section container"
+      id="focus"
+    >
+
+      <div class="focus-panel reveal">
+
+        <div>
+
+          <p class="eyebrow">
+            CAREER INTERESTS
+          </p>
+
+          <h2>
+            Learning toward the data stack.
+          </h2>
+
+          <p>
+            Focused on developing practical skills across
+            statistics, programming, data analysis, data
+            engineering, and machine learning.
+          </p>
+
+        </div>
+
+
+        <div class="focus-list">
+
+          <span>Data Engineering</span>
+          <span>Machine Learning</span>
+          <span>Data Science</span>
+          <span>Statistical Computing</span>
+          <span>Python Programming</span>
+          <span>Data Analysis</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact-section"
+      id="contact"
+    >
+
+      <div class="container">
+
+        <div class="contact-card reveal">
+
+          <div>
+
+            <p class="eyebrow">
+              GET IN TOUCH
+            </p>
+
+            <h2>
+              Let's connect around data & technology.
+            </h2>
+
+            <p>
+              For internship, entry-level tech/data,
+              data science, data engineering, machine
+              learning, or statistics-related opportunities.
+            </p>
+
+          </div>
+
+
+          <div class="contact-links">
+
+            <!-- Email -->
+
+            <a href="mailto:jamil200abdullah@gmail.com">
+              jamil200abdullah@gmail.com
+              <span>↗</span>
+            </a>
+
+
+            <!-- Phone -->
+
+            <a href="tel:01994239994">
+              01994239994
+              <span>↗</span>
+            </a>
+
+
+            <!-- GitHub -->
+
+            <a
+              href="https://github.com/jamil200abdullah"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+              <span>↗</span>
+            </a>
+
+
+            <!-- Reddit -->
+
+            <a
+              href="https://www.reddit.com/u/ConsistentOrange2354/s/tk19ydNGEq"
+              target="_blank"
+              rel="noopener"
+            >
+              Reddit
+              <span>↗</span>
+            </a>
+
+
+            <!-- LinkedIn intentionally kept as placeholder -->
+
+            <div class="linkedin-line">
+
+              LinkedIn:
+              <strong>
+                MUHAMMAD ABDULLAH JAMIL
+              </strong>
+
+              <small>
+                URL to be added
+              </small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+  <!-- ================= FOOTER ================= -->
+
   <footer class="footer container">
-    <span>© <span id="year"></span> Muhammad Abdullah Jamil</span>
-    <a href="#top">Back to top ↑</a>
+
+    <span>
+      © <span id="year"></span>
+      Muhammad Abdullah Jamil
+    </span>
+
+    <a href="#top">
+      Back to top ↑
+    </a>
+
   </footer>
 
+
+  <!-- JavaScript -->
   <script src="script.js"></script>
+
 </body>
 </html>
